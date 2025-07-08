@@ -13,3 +13,4 @@ router.put('/', requireUser, UserController.updateUserProfile);
 router.post('/getUserProfile', requireUser, UserController.getUserProfile);
 
 module.exports = router;
+//UserRoutes
