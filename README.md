@@ -39,8 +39,6 @@ A backend server for a social media platform built with **Node.js**, **Express**
 
 └── /controllers      # Route handlers
 
-
-
 ## 🛠️ Setup & Installation
 
 
