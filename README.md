@@ -44,4 +44,3 @@ A backend server for a social media platform built with **Node.js**, **Express**
 
 1. **Clone the repository:**
    git clone https://github.com/Arbab-ofc/social-media-server.git
-2.
