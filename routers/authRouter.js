@@ -7,3 +7,4 @@ router.get("/refresh", authController.refreshAccessTokenController);
 router.post("/logout", authController.logoutController);
 
 module.exports = router;
+//authRoutes
