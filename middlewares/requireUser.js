@@ -8,7 +8,7 @@ module.exports = async (req, res, next) => {
         !req.headers.authorization ||
         !req.headers.authorization.startsWith("Bearer")
     ) {
-        // return res.status(401).send("Authorization header is required");
+        // return res.status(401).send("Authorization header is required"):
         return res.send(error(401, 'Authorization header is required'))
     }
 
@@ -29,7 +29,7 @@ module.exports = async (req, res, next) => {
         next();
     } catch (e) {
         console.log(e);
-        // return res.status(401).send("Invalid access key");
+        // return res.status(401).send("Invalid access key"):
         return res.send(error(401, 'Invalid access key'))
     }
 };
