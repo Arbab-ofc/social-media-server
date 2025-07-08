@@ -73,7 +73,7 @@ const loginController = async (req, res) => {
     }
 };
 
-// this api will check the refreshToken validity and generate a new access token
+// this api will check the refreshToken validity and generate a new access token;
 const refreshAccessTokenController = async (req, res) => {
     const cookies = req.cookies;
     if (!cookies.jwt) {
